@@ -9,7 +9,6 @@ For example, the [Labs 17 Cryptolytic DS team](https://github.com/Lambda-School-
 ![](https://github.com/Cryptolytic-app/cryptolyticapp/blob/master/assets/cryptolytic-architecture.png?raw=true)
 
 
-
 ## Resources
 
 #### Lambda students
