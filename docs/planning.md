@@ -1,6 +1,6 @@
 # Planning
 
-Plans can be flexible and iterative. I don't expect DS students to stick to your original plan — but I do expect you to make one.  [President Eisenhower is famously quoted:](https://quoteinvestigator.com/2017/11/18/planning/) _"In preparing for battle I have always found that plans are useless, but planning is indispensable."_ This is true of DS too!
+Plans can be flexible and iterative. We don't expect DS students to stick to your original plan — but we do expect you to make one.  [President Eisenhower is famously quoted:](https://quoteinvestigator.com/2017/11/18/planning/) _"In preparing for battle I have always found that plans are useless, but planning is indispensable."_ This is true of DS too!
 
 ## Translate user problems into DS problems
 

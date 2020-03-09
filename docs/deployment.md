@@ -8,6 +8,13 @@ For example, the [Labs 17 Cryptolytic DS team](https://github.com/Lambda-School-
 
 ![](https://github.com/Cryptolytic-app/cryptolyticapp/blob/master/assets/cryptolytic-architecture.png?raw=true)
 
+## FastAPI
+
+FastAPI is an alternative to Flask. It gives you "automatic interactive API documentation."
+
+- [repo](https://github.com/tiangolo/fastapi)
+- [docs](https://fastapi.tiangolo.com/)
+- [screencasts](https://calmcode.io/fastapi/hello-world.html)
 
 ## Resources
 
@@ -20,13 +27,6 @@ For example, the [Labs 17 Cryptolytic DS team](https://github.com/Lambda-School-
 #### Third party
 - Soledad Galli, [Deployment of Machine Learning Models](https://www.udemy.com/course/deployment-of-machine-learning-models/) (Udemy course, 8 hours of videos, $12)
 
-## FastAPI
-
-FastAPI is an alternative to Flask. It gives you "automatic interactive API documentation."
-
-- [repo](https://github.com/tiangolo/fastapi)
-- [docs](https://fastapi.tiangolo.com/)
-- [screencasts](https://calmcode.io/fastapi/hello-world.html)
 
 <!-- 
 
