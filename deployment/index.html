@@ -31,21 +31,21 @@
       
         <meta name="lang:search.tokenizer" content="[\s\-]+">
       
-      <link rel="shortcut icon" href="assets/images/favicon.png">
+      <link rel="shortcut icon" href="../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.1, mkdocs-material-4.6.3">
     
     
       
-        <title>Lambda Labs DS</title>
+        <title>Deployment - Lambda Labs DS</title>
       
     
     
-      <link rel="stylesheet" href="assets/stylesheets/application.adb8469c.css">
+      <link rel="stylesheet" href="../assets/stylesheets/application.adb8469c.css">
       
       
     
     
-      <script src="assets/javascripts/modernizr.86422ebf.js"></script>
+      <script src="../assets/javascripts/modernizr.86422ebf.js"></script>
     
     
       
@@ -54,7 +54,7 @@
         <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
       
     
-    <link rel="stylesheet" href="assets/fonts/material-icons.css">
+    <link rel="stylesheet" href="../assets/fonts/material-icons.css">
     
     
     
@@ -75,12 +75,16 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
     
+      <a href="#deployment" tabindex="0" class="md-skip">
+        Skip to content
+      </a>
+    
     
       <header class="md-header" data-md-component="header">
   <nav class="md-header-nav md-grid">
     <div class="md-flex">
       <div class="md-flex__cell md-flex__cell--shrink">
-        <a href="." title="Lambda Labs DS" aria-label="Lambda Labs DS" class="md-header-nav__button md-logo">
+        <a href=".." title="Lambda Labs DS" aria-label="Lambda Labs DS" class="md-header-nav__button md-logo">
           
             <i class="md-icon"></i>
           
@@ -97,7 +101,7 @@
             </span>
             <span class="md-header-nav__topic">
               
-                Home
+                Deployment
               
             </span>
           
@@ -150,7 +154,7 @@
                   <div class="md-sidebar__inner">
                     <nav class="md-nav md-nav--primary" data-md-level="0">
   <label class="md-nav__title md-nav__title--site" for="__drawer">
-    <a href="." title="Lambda Labs DS" class="md-nav__button md-logo">
+    <a href=".." title="Lambda Labs DS" class="md-nav__button md-logo">
       
         <i class="md-icon"></i>
       
@@ -164,6 +168,18 @@
       
       
 
+
+  <li class="md-nav__item">
+    <a href=".." title="Home" class="md-nav__link">
+      Home
+    </a>
+  </li>
+
+    
+      
+      
+      
+
   
 
 
@@ -171,23 +187,76 @@
     
     <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
     
-    
-    <a href="." title="Home" class="md-nav__link md-nav__link--active">
-      Home
-    </a>
-    
-  </li>
-
-    
       
-      
-      
-
-
-  <li class="md-nav__item">
-    <a href="deployment/" title="Deployment" class="md-nav__link">
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Deployment
+      </label>
+    
+    <a href="./" title="Deployment" class="md-nav__link md-nav__link--active">
       Deployment
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#architecture" class="md-nav__link">
+    Architecture
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#resources" class="md-nav__link">
+    Resources
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#third-party" class="md-nav__link">
+    Third party
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lambda-students" class="md-nav__link">
+    Lambda students
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fastapi" class="md-nav__link">
+    FastAPI
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
   </li>
 
     
@@ -197,7 +266,7 @@
 
 
   <li class="md-nav__item">
-    <a href="examples/" title="Examples" class="md-nav__link">
+    <a href="../examples/" title="Examples" class="md-nav__link">
       Examples
     </a>
   </li>
@@ -209,7 +278,7 @@
 
 
   <li class="md-nav__item">
-    <a href="expectations/" title="Expectations" class="md-nav__link">
+    <a href="../expectations/" title="Expectations" class="md-nav__link">
       Expectations
     </a>
   </li>
@@ -221,7 +290,7 @@
 
 
   <li class="md-nav__item">
-    <a href="planning/" title="Planning" class="md-nav__link">
+    <a href="../planning/" title="Planning" class="md-nav__link">
       Planning
     </a>
   </li>
@@ -234,15 +303,108 @@
               </div>
             
             
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#architecture" class="md-nav__link">
+    Architecture
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#resources" class="md-nav__link">
+    Resources
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#third-party" class="md-nav__link">
+    Third party
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lambda-students" class="md-nav__link">
+    Lambda students
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fastapi" class="md-nav__link">
+    FastAPI
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
           
           <div class="md-content">
             <article class="md-content__inner md-typeset">
               
                 
                 
-                  <h1>Home</h1>
-                
-                <p>Welcome to Labs!</p>
+                <h1 id="deployment">Deployment</h1>
+<h2 id="architecture">Architecture</h2>
+<p>You will design and document your architecture to deploy your model and integrate it with the web application.</p>
+<p>For example, this diagram was created by the <a href="https://github.com/Lambda-School-Labs/cryptolytic-ds">Labs 17 Cryptolytic DS team</a>:</p>
+<p><img alt="" src="https://github.com/Cryptolytic-app/cryptolyticapp/blob/master/assets/cryptolytic-architecture.png?raw=true" /></p>
+<h2 id="resources">Resources</h2>
+<h4 id="third-party">Third party</h4>
+<ul>
+<li>Soledad Galli, <a href="https://www.udemy.com/course/deployment-of-machine-learning-models/">Deployment of Machine Learning Models</a> (Udemy course, 8 hours of videos, $12)</li>
+</ul>
+<h4 id="lambda-students">Lambda students</h4>
+<ul>
+<li>Elizabeth Ter Sahakyan, <a href="https://towardsdatascience.com/create-an-api-to-deploy-machine-learning-models-using-flask-and-heroku-67a011800c50">Create An API To Deploy Machine Learning Models Using Flask and Heroku</a></li>
+<li>Marvin Davila, <a href="https://medium.com/analytics-vidhya/deploying-a-flask-app-to-aws-elastic-beanstalk-f320033fda3c">Deploying a Flask App to AWS Elastic Beanstalk</a></li>
+<li>Marvin Davila, <a href="https://medium.com/analytics-vidhya/how-to-create-an-aws-lambda-function-in-cloud9-86255e456747">How to Create an AWS Lambda Function in Cloud9</a></li>
+<li>Quinn Dougherty, <a href="https://github.com/quinn-dougherty/build-week-survival-guide-data-engineering-machine-learning/blob/master/data-engineering-README.md">Build Week Survival Guide: Data Engineering</a></li>
+</ul>
+<h2 id="fastapi">FastAPI</h2>
+<p>FastAPI is an alternative to Flask. It gives you "automatic interactive API documentation."</p>
+<ul>
+<li><a href="https://github.com/tiangolo/fastapi">repo</a></li>
+<li><a href="https://fastapi.tiangolo.com/">docs</a></li>
+<li><a href="https://calmcode.io/fastapi/hello-world.html">screencasts</a></li>
+</ul>
+<!--
+
+## AWS Elastic Beanstalk
+
+[AWS in Plain English](https://expeditedsecurity.com/aws-in-plain-english/) says "Elastic Beanstalk should have been called Amazon Platform as a Service. Use this to move your app hosted on Heroku to AWS when it gets too expensive."
+
+-->
                 
                   
                 
@@ -264,14 +426,28 @@
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
         
+          <a href=".." title="Home" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Home
+              </span>
+            </div>
+          </a>
         
-          <a href="deployment/" title="Deployment" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+        
+          <a href="../examples/" title="Examples" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
               <span class="md-flex__ellipsis">
                 <span class="md-footer-nav__direction">
                   Next
                 </span>
-                Deployment
+                Examples
               </span>
             </div>
             <div class="md-flex__cell md-flex__cell--shrink">
@@ -299,9 +475,9 @@
       
     </div>
     
-      <script src="assets/javascripts/application.c33a9706.js"></script>
+      <script src="../assets/javascripts/application.c33a9706.js"></script>
       
-      <script>app.initialize({version:"1.1",url:{base:"."}})</script>
+      <script>app.initialize({version:"1.1",url:{base:".."}})</script>
       
     
   </body>
