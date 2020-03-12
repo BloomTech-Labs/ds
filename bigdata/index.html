@@ -276,17 +276,13 @@
                 <h1 id="big-data">Big Data</h1>
 <p>What if your data doesn’t fit in memory?</p>
 <p>My advice: Try to “scale up” (use a server with more memory) before you try to “scale out” (use distributed computing frameworks).</p>
-<p>If you’re looking at frameworks, try something lightweight like Dask before something heavy-duty like Spark. https://docs.dask.org/en/latest/spark.html</p>
+<p>If you’re looking at frameworks, try something lightweight like <a href="https://docs.dask.org/en/latest/spark.html">Dask</a> before something heavy-duty like Spark. </p>
 <p>If you’re fitting models, figure out whether more data is actually useful:</p>
-<ul>
-<li>http://technocalifornia.blogspot.com/2012/07/more-data-or-better-models.html</li>
-<li>https://jakevdp.github.io/PythonDataScienceHandbook/05.03-hyperparameters-and-model-validation.html#Learning-curves-in-Scikit-Learn</li>
-</ul>
-<p>Then, decide whether to use a smaller sample that does fit in memory, or, try “incremental learning”:</p>
-<ul>
-<li>https://scikit-learn.org/0.15/modules/scaling_strategies.html</li>
-<li>https://examples.dask.org/machine-learning/incremental.html </li>
-</ul>
+<ol>
+<li>Read <a href="http://technocalifornia.blogspot.com/2012/07/more-data-or-better-models.html">"More data or better models?"</a> by Xavier Amatriain, based on his experience leading ML Engineering at Netflix.</li>
+<li>Read about <a href="https://jakevdp.github.io/PythonDataScienceHandbook/05.03-hyperparameters-and-model-validation.html#Learning-curves-in-Scikit-Learn">Learning curves in Scikit-Learn</a> in <em>Python Data Science Handbook</em> by Jake VanderPlas.</li>
+</ol>
+<p>Then, decide whether to use a smaller sample that does fit in memory, or, try “incremental learning” in <a href="https://scikit-learn.org/0.15/modules/scaling_strategies.html">scikit-learn</a> or <a href="https://examples.dask.org/machine-learning/incremental.html">Dask</a>.</p>
                 
                   
                 
