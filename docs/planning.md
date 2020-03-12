@@ -18,7 +18,7 @@ DS students should participate in creating low-fidelity mockups, to get shared u
 
 ## What data is available?
 
-_[Building Machine Learning Powered Applications](https://mlpowered.com/pdf/BMLPA_Chapter_1.pdf)_ lists these "levels of data availability", "from best-case scenario to most challenging":
+_[Building Machine Learning Powered Applications](https://mlpowered.com/pdf/BMLPA_Chapter_1.pdf)_ lists these "levels of data availability, from best-case scenario to most challenging":
 
 - **Labeled** data exists. 
 - **Weakly labeled** data exists. "Some datasets contain labels that are not exactly a modeling target, but somewhat correlated with it. Playback and skip history for a music streaming service are examples of a weakly labeled dataset for predicting whether a user dislikes a song." 
@@ -49,7 +49,7 @@ Track your team's progress like [how the EFF tracks AI research progress](https:
 
 We care less about the end result (how high the metric goes at the end of the project) and more about the effort rate (how many attempts are made to iterate early). Your line's slope measures your learning rate.
 
-## Decide your next step
+## Choose your next step
 
 The team's project plan doesn't need to be detailed, but individual next steps do.
 
