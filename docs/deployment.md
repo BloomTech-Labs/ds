@@ -4,7 +4,7 @@
 
 You will design and document your architecture to deploy your model and integrate it into your product. For example:
 
-[Labs 17 Cryptolytic DS team](https://github.com/Lambda-School-Labs/cryptolytic-ds) architecture (diagram made with [Lucidchart](https://www.lucidchart.com/))
+[Labs 17 Cryptolytic](https://github.com/Lambda-School-Labs/cryptolytic-ds) architecture (diagram made with [Lucidchart](https://www.lucidchart.com/))
 
 ![](https://github.com/Cryptolytic-app/cryptolyticapp/blob/master/assets/cryptolytic-architecture.png?raw=true)
 
