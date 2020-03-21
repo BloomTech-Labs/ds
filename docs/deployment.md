@@ -20,6 +20,8 @@ FastAPI is an alternative to Flask. It gives you "automatic interactive API docu
 - [repo](https://github.com/tiangolo/fastapi)
 - [docs](https://fastapi.tiangolo.com/)
 - [screencasts](https://calmcode.io/fastapi/hello-world.html)
+- [Porting Flask to FastAPI for ML Model Serving](https://www.pluralsight.com/tech-blog/porting-flask-to-fastapi-for-ml-model-serving/)
+
 
 ## Resources
 
