@@ -1,3 +1,4 @@
 site_name: 'Lambda Labs DS'
 theme:
   name: 'material'
+  logo: 'images/lambda_shield_white_cropped.png'
