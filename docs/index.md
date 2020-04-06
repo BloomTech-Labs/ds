@@ -1,6 +1,6 @@
 # Labs DS Phases
 
-[Meet with our Labs DS manager](https://calendly.com/ryan-herr) to approve your work for each phase:
+[Meet with our Labs DS manager](https://calendly.com/ryan-herr) to approve your work from each phase:
 
 ## Planning
 _(First 1-2 sprints)_
