@@ -3,14 +3,14 @@
 [Meet with our Labs DS manager](https://calendly.com/ryan-herr) to approve your work from each phase:
 
 ## Planning
-_(First 1-2 sprints)_
+_First 1-2 sprints_
 
 - Identify user problems that DS can help solve
 - What data do you have? What do you need? What can you get?
 - Choose DS problem(s) to work on
 
 ## DS Cycle 1: Data + Baseline
-_(Next 2-3 sprints)_
+_Next 2-3 sprints_
 
 - Get data, wrangle it
 - Define how you'll measure success
@@ -18,14 +18,14 @@ _(Next 2-3 sprints)_
 - Recommended: Deploy baseline API
 
 ## DS Cycle 2: Model + Deploy
-_(Through sprint 7)_
+_Through sprint 7_
 
 - Develop models iteratively
 - Plot your progress
 - Deploy model API
 
 ## Documentation + Presentation
-_(Last sprint)_
+_Last sprint_
 
 - API documentation
 - Architecture diagram
