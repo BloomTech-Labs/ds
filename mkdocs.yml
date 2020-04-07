@@ -1,4 +1,13 @@
 site_name: 'Lambda Labs DS'
+
 theme:
   name: 'material'
   logo: 'images/lambda_shield_white_cropped.png'
+
+nav:
+  - 'index.md'
+  - 'planning.md'
+  - 'cycle1.md'
+  - 'cycle2.md'
+  - 'documentation.md'
+  - 'expectations.md'
