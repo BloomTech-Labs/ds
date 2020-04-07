@@ -6,7 +6,7 @@ PVDs are at the product level — all tracks contribute to the product, so all s
 
 Plans can be flexible and iterative. We don't expect DS students to stick to your original plan — but we do expect you to make one.  [President Eisenhower is famously quoted:](https://quoteinvestigator.com/2017/11/18/planning/) _"In preparing for battle I have always found that plans are useless, but planning is indispensable."_ This is true of DS too!
 
-For the **Technical Research** and **Architecture** sections of the PVD, explore some options and make some initial hypotheses. But you'll be doing technical research and making architecture decisions all throughout your time in Labs. You do not need to finalize these during the Planning phase.
+For the **Technical Research** and **Architecture** sections of the PVD, explore some options and make some initial hypotheses. But you'll be doing technical research and making architecture decisions all throughout your time in Labs. So you do not need to finalize these during the Planning phase.
 
 ## Identify user problems that DS can help solve
 
@@ -15,7 +15,6 @@ Look for user problems that could be solved with any of these patterns:
 - Automate tasks when you can't give step-by-step instructions, but you can give many labeled examples
 - Predict or estimate uncertain information
 - Give users personalized recommendations
-- Organize data into similar groups ("users like you", "items like this")
 
 Refer to these additional resources:
 
@@ -25,7 +24,15 @@ Refer to these additional resources:
 
 ## What data do you have? What do you need? What can you get?
 
-DS is required to answer these questions during the Planning phase. Make a table. For the rows, use these three questions. For the columns, use "Size", "Features", and "Labels." Then answer the questions and complete the table.
+DS is required to answer these data assessment questions during the Planning phase. You could make a table that looks something like this: 
+
+|                        | Size | Features | Labels |
+|------------------------|------|----------|--------|
+| What data do you have? |      |          |        |
+| What do you need?      |      |          |        |
+| What can you get?      |      |          |        |
+
+Then fill in the table to answer the questions and complete your data assessment.
 
 Refer to these resources:
 
@@ -42,7 +49,7 @@ DS teams will probably deliver fewer features than Web teams during Labs. For ex
 
 You will list your user feature(s) in the **Product Vision Document** for your project, and in the **Release Canvas** documents for each cycle.
 
-The Release Canvas template also asks for a **Lo-fi prototype** (mockup) for each feature. DS students should help make mockups. These resources will help you:
+The Release Canvas template also asks for a **Lo-fi prototype** (mockup) for each feature. DS students should help make mockups. Refer to these resources:
 
 - [Building Machine Learning Powered Applications](https://mlpowered.com/pdf/BMLPA_Chapter_1.pdf), PDF pages 21-22.
 - [Stakeholder-Driven Data Science](https://blog.dominodatalab.com/stakeholder-driven-data-science-warby-parker/) @ 6:40 ("First example, retail site selection ... We start with mockups.")
