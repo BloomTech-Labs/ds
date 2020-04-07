@@ -27,4 +27,4 @@ FastAPI is an alternative to Flask. It gives you "automatic interactive API docu
 - Quinn Dougherty, [Build Week Survival Guide: Data Engineering](https://github.com/quinn-dougherty/build-week-survival-guide-data-engineering-machine-learning/blob/master/data-engineering-README.md)
 
 ### Udemy course
-- Soledad Galli, [Deployment of Machine Learning Models](https://www.udemy.com/course/deployment-of-machine-learning-models/) (Udemy course, 8 hours of videos, $12)
+- Soledad Galli, [Deployment of Machine Learning Models](https://www.udemy.com/course/deployment-of-machine-learning-models/) (8 hours of videos, $12)

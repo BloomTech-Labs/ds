@@ -2,7 +2,7 @@
 
 ## API documentation
 
-[FastAPI](https://github.com/tiangolo/fastapi) is recommended because it gives you "automatic interactive API documentation!"
+[FastAPI](https://github.com/tiangolo/fastapi) is recommended because it gives you "automatic interactive API documentation"!
 
 ## Architecture diagram
 

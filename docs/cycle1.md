@@ -17,7 +17,7 @@ Resources
 
 ## Begin with baselines
 
-In Cycle 1, you're required to start making a chart like this. Label the axes — with time on the x-axis, and your evaluation metric on the y-axis.  Then plot the red horizontal lines, representing baselines and user expectations. 
+In Cycle 1, you're required to start making a chart like this. Label the axes, with time on the x-axis, and your evaluation metric on the y-axis.  Then plot the red horizontal lines, representing baselines and user expectations. 
 
 ![](https://user-images.githubusercontent.com/7278219/71922887-bd063980-3183-11ea-8930-33462eee48c0.png)
 
