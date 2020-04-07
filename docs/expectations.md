@@ -10,7 +10,7 @@ This doesn't have to be just production code. For example, documentation is valu
 
 Regardless of the work format, it should be committed to GitHub or Notion. To help teams review and troubleshoot their work, we need to be able to see it in central repositories.
 
-## Machine Learning will be << 50% of your time (but should be > 0%)
+## Machine Learning will be less than 50% of your time (but should be more than 0%)
 
 See Monica Rogati's diagram from her blog post, [The AI Hierarchy of Needs](https://hackernoon.com/the-ai-hierarchy-of-needs-18f111fcc007):
 
