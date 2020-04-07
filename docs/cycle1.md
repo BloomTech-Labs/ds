@@ -4,7 +4,7 @@
 
 Resources
 
-- [Google People + AI Guidebook, Data Collection + Evaluation](https://pair.withgoogle.com/chapter/data-collection/)
+- [Google People + AI Guidebook: Data Collection + Evaluation](https://pair.withgoogle.com/chapter/data-collection/)
 - [Data analysis checklist](https://www.kdnuggets.com/2015/03/jtleek-elements-data-analytic-style.html)
 
 
@@ -12,7 +12,7 @@ Resources
 
 Resources
 
-- [Google, People + AI Guidebook, User Needs + Defining Success, Design & evaluate the reward function](https://pair.withgoogle.com/chapter/user-needs/#section3)
+- [Google, People + AI Guidebook: User Needs + Defining Success: Design & evaluate the reward function](https://pair.withgoogle.com/chapter/user-needs/#section3)
 
 
 ## Begin with baselines

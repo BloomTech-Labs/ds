@@ -6,7 +6,7 @@ PVDs are at the product level — all tracks contribute to the product, so all s
 
 Plans can be flexible and iterative. We don't expect DS students to stick to your original plan — but we do expect you to make one.  [President Eisenhower is famously quoted:](https://quoteinvestigator.com/2017/11/18/planning/) _"In preparing for battle I have always found that plans are useless, but planning is indispensable."_ This is true of DS too!
 
-For the **Technical Research** and **Architecture** sections of the PVD, explore some options and make some initoial hypotheses. But you will be doing technical research and making architecture decisions all throughout your time in Labs. You do not need to finalize these during the Planning phase.
+For the **Technical Research** and **Architecture** sections of the PVD, explore some options and make some initial hypotheses. But you'll be doing technical research and making architecture decisions all throughout your time in Labs. You do not need to finalize these during the Planning phase.
 
 ## Identify user problems that DS can help solve
 
@@ -15,21 +15,21 @@ Look for user problems that could be solved with any of these patterns:
 - Automate tasks when you can't give step-by-step instructions, but you can give many labeled examples
 - Predict or estimate uncertain information
 - Give users personalized recommendations
-- Organize data into similar groups ("users like you")
+- Organize data into similar groups ("users like you", "items like this")
 
 Refer to these additional resources:
 
-- [Google People + AI Guidebook, User Needs + Defining Success, Find the intersection of user needs & AI strengths](https://pair.withgoogle.com/chapter/user-needs/#section1). See bulleted lists: "When AI is probably better" versus "When AI is probably not better."
+- [Google People + AI Guidebook: User Needs + Defining Success: Find the intersection of user needs & AI strengths](https://pair.withgoogle.com/chapter/user-needs/#section1). See bulleted lists: "When AI is probably better" versus "When AI is probably not better."
 - [Building Machine Learning Powered Applications](https://mlpowered.com/pdf/BMLPA_Chapter_1.pdf), PDF pages 23-32.
 - [Five Questions Data Science Answers](https://brohrer.github.io/five_questions_data_science_answers.html) 
 
 ## What data do you have? What do you need? What can you get?
 
-DS is required to answer these questions during the Planning phase. Make a table. For the rows, use these three question. For the columns, use "Size", "Features", and "Labels." Then answer the questions and complete the table.
+DS is required to answer these questions during the Planning phase. Make a table. For the rows, use these three questions. For the columns, use "Size", "Features", and "Labels." Then answer the questions and complete the table.
 
 Refer to these resources:
 
-- [Google People + AI Guidebook, Data Collection + Evaluation](https://pair.withgoogle.com/chapter/data-collection/)
+- [Google People + AI Guidebook: Data Collection + Evaluation](https://pair.withgoogle.com/chapter/data-collection/)
 - [Building Machine Learning Powered Applications](https://mlpowered.com/pdf/BMLPA_Chapter_1.pdf), PDF pages 33-35.
 
 You may have heard that we don't write code in Labs during the Planning phase. This is *generally* true. However, DS is permitted and expected to write some code to do your data assessment and identify DS opportunities. This will be exploratory code, probably in notebooks. You probably won't use any of this code in production for the solution you deliver.
@@ -38,7 +38,7 @@ You may have heard that we don't write code in Labs during the Planning phase. T
 
 You will choose at least one **user feature** to help build with Data Science.
 
-DS teams will probably deliver fewer features than Web teams during Labs. For example, Web may release three features in cycle 1, then three more features in cycle 2. But DS may work on a single user feature for both cycles. This is accepted and expected!
+DS teams will probably deliver fewer features than Web teams during Labs. For example, Web may release three features in cycle 1, then three more features in cycle 2. But DS may work on a single user feature across both cycles. This is accepted and expected!
 
 You will list your user feature(s) in the **Product Vision Document** for your project, and in the **Release Canvas** documents for each cycle.
 
