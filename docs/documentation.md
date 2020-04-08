@@ -36,3 +36,7 @@ Labs 20’s top 2 products were DS cross-functional. See for yourself!
 Labs 12 was the first cohort with DS!
 
 - Larkist [video](https://youtu.be/zM1H_mGNPnU)
+
+Follow this advice:
+
+- [How to give a perfect demo](https://scottberkun.com/2011/how-to-give-a-perfect-demo/)
