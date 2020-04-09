@@ -1,6 +1,6 @@
 # Labs DS Phases
 
-[Meet with our Labs DS manager](https://calendly.com/ryan-herr) to approve your work from each phase:
+[Meet with your Labs DS manager](https://calendly.com/ryan-herr) to approve your work from each phase:
 
 ## [Planning](planning.md)
 _First 1-2 sprints_
@@ -24,6 +24,12 @@ _Through sprint 7_
 - Develop models iteratively
 - Plot your progress
 - Deploy model API
+
+## [Cycle 3: Iterate](cycle3.md)
+_If time allows_
+
+- Add another user feature
+- Or, iterate on your current feature(s) 
 
 ## [Documentation + Presentation](documentation.md)
 _Last sprint_
