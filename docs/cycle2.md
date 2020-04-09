@@ -2,7 +2,7 @@
 
 ## Develop models iteratively, plot your progress
 
-Track your team's progress like [how the EFF tracks AI research progress](https://www.eff.org/ai/metrics) — with time on the x-axis, an evaluation metric on the y-axis, and a datapoint for each attempt, compared to some baseline:
+In Cycle 2, your team must plot your progress, like [how the EFF tracks AI research progress](https://www.eff.org/ai/metrics) — with time on the x-axis, an evaluation metric on the y-axis, and a datapoint for each attempt, compared to some baseline:
 
 ![](https://user-images.githubusercontent.com/7278219/71922887-bd063980-3183-11ea-8930-33462eee48c0.png)
 

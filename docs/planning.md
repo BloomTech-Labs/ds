@@ -22,9 +22,11 @@ Refer to these additional resources:
 - [Building Machine Learning Powered Applications](https://mlpowered.com/pdf/BMLPA_Chapter_1.pdf), PDF pages 23-32.
 - [Five Questions Data Science Answers](https://brohrer.github.io/five_questions_data_science_answers.html) 
 
-## What data do you have? What do you need? What can you get?
+## Assess your data. What do you have? What do you need? What can you get?
 
-DS is required to answer these data assessment questions during the Planning phase. You could make a table that looks something like this: 
+During the Planning phase, you are required to assess your data. What data do you have now? What data do you need, to solve the user problem? What data can you get?
+
+You could make a table that looks something like this: 
 
 |                        | Size | Features | Labels |
 |------------------------|------|----------|--------|

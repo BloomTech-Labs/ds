@@ -7,7 +7,7 @@ _First 1-2 sprints_
 
 - Contribute to Product Vision Document
 - Identify user problems that DS can help solve
-- What data do you have? What do you need? What can you get?
+- Assess your data. What do you have? What do you need? What can you get?
 - Choose DS problem(s) to work on
 
 ## [Cycle 1: Data + Baseline](cycle1.md)
