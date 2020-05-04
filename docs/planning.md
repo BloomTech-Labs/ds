@@ -22,9 +22,9 @@ Refer to these additional resources:
 - [Building Machine Learning Powered Applications](https://mlpowered.com/pdf/BMLPA_Chapter_1.pdf), PDF pages 23-32.
 - [Five Questions Data Science Answers](https://brohrer.github.io/five_questions_data_science_answers.html) 
 
-## Assess your data
+## Audit your data
 
-During the Planning phase, you are required to assess your data. What data do you have now? What data do you need, to solve the problem? What data can you get?
+During the Planning phase, you are required to audit your data. What data do you have now? What data do you need, to solve the problem? What data can you get?
 
 You could make a table that looks something like this: 
 
@@ -34,14 +34,14 @@ You could make a table that looks something like this:
 | What do you need?      |      |          |        |
 | What can you get?      |      |          |        |
 
-Then fill in the table to answer the questions and complete your data assessment.
+Then fill in the table to answer the questions and complete your data audit.
 
 Refer to these resources:
 
 - [Google People + AI Guidebook: Data Collection + Evaluation](https://pair.withgoogle.com/chapter/data-collection/)
 - [Building Machine Learning Powered Applications](https://mlpowered.com/pdf/BMLPA_Chapter_1.pdf), PDF pages 33-35.
 
-You may have heard that we don't write code in Labs during the Planning phase. This is *generally* true. However, DS is permitted and expected to write some code to do your data assessment and identify DS opportunities. This will be exploratory code, probably in notebooks. You probably won't use any of this code in production for the solution you deliver.
+You may have heard that we don't write code in Labs during the Planning phase. This is *generally* true. However, DS is permitted and expected to write some code to do your data audit and identify DS opportunities. This will be exploratory code, probably in notebooks. You probably won't use any of this code in production for the solution you deliver.
 
 ## Choose DS problem(s) to work on
 
