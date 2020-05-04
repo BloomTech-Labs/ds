@@ -24,7 +24,9 @@ In Cycle 1, you're required to start making a chart like this. Label the axes, w
 This will prepare you for Cycle 2, when you will track your team's progress like [how the EFF tracks AI research progress](https://www.eff.org/ai/metrics), with a datapoint for each of your iterations. 
 
 
-## Recommended: Deploy baseline API
+## Deploy baseline API
+
+_* Recommended in cycle 1 for Labs 23, required for Labs 24_
 
 Resources
 

@@ -24,7 +24,7 @@ Refer to these additional resources:
 
 ## Assess your data
 
-During the Planning phase, you are required to assess your data. What data do you have now? What data do you need, to solve the user problem? What data can you get?
+During the Planning phase, you are required to assess your data. What data do you have now? What data do you need, to solve the problem? What data can you get?
 
 You could make a table that looks something like this: 
 

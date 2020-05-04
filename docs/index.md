@@ -16,7 +16,7 @@ _Next 2-3 sprints_
 - Get data, wrangle it
 - Define how you'll measure success
 - Begin with baselines
-- Recommended: Deploy baseline API
+- Deploy baseline API
 
 ## [Cycle 2: Model + Deploy](cycle2.md)
 _Through sprint 7_
