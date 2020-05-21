@@ -295,9 +295,9 @@ web: gunicorn main:app -w 4 -k uvicorn.workers.UvicornWorker
 
 Curious about that Procfile? You can browse these technical references:
 
-- https://fastapi.tiangolo.com/deployment/#alternatively-deploy-fastapi-without-docker
-- https://www.uvicorn.org/#running-with-gunicorn
-- https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/python-configuration-procfile.html
+- [https://fastapi.tiangolo.com/deployment/#alternatively-deploy-fastapi-without-docker](https://fastapi.tiangolo.com/deployment/#alternatively-deploy-fastapi-without-docker)
+- [https://www.uvicorn.org/#running-with-gunicorn](https://www.uvicorn.org/#running-with-gunicorn)
+- [https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/python-configuration-procfile.html](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/python-configuration-procfile.html)
 
 ### Git commit
 
