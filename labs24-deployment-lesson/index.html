@@ -367,8 +367,8 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#make-apppy" class="md-nav__link">
-    Make app.py
+  <a href="#make-mainpy" class="md-nav__link">
+    Make main.py
   </a>
   
 </li>
@@ -611,9 +611,11 @@ app.add_middleware(
 <p>To get access keys, follow the instructions in <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_access-keys.html#Using_CreateAccessKey">Managing Access Keys for IAM Users - AWS Identity and Access Management</a></p>
 <h3 id="install-aws-eb-cli">Install AWS EB CLI</h3>
 <p>That’s a lot of acronyms!</p>
-<p>AWS = Amazon Web Services
-EB = Elastic Beanstalk
-CLI = Command Line Interface</p>
+<ul>
+<li>AWS = Amazon Web Services</li>
+<li>EB = Elastic Beanstalk</li>
+<li>CLI = Command Line Interface</li>
+</ul>
 <p>Here’s how I recommend you install AWS EB CLI:</p>
 <pre><code>pip install pipx
 </code></pre>
@@ -652,11 +654,11 @@ CLI = Command Line Interface</p>
 <pre><code>pipenv shell
 </code></pre>
 
-<h3 id="make-apppy">Make app.py</h3>
+<h3 id="make-mainpy">Make main.py</h3>
 <p>Make a file named <code>main.py</code> and insert your FastAPI app code.</p>
 <h3 id="install-more-dependencies">Install more dependencies</h3>
-<p>For example, if your app uses pandas:</p>
-<pre><code>pipenv install pandas
+<p>For example, so far our app uses pandas, plus a library called tabulate (for the <a href="https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.to_markdown.html"><code>to_markdown</code></a> function). So we need to install these libraries in our virtual environment.</p>
+<pre><code>pipenv install pandas tabulate
 </code></pre>
 
 <h3 id="run-locally">Run locally</h3>
@@ -687,12 +689,12 @@ CLI = Command Line Interface</p>
 </code></pre>
 
 <h3 id="deploy-on-elastic-beanstalk">Deploy on Elastic Beanstalk</h3>
-<p>We saw this message when we ran <code>eb —help</code> :</p>
+<p>We saw this message when we ran <code>eb --help</code> :</p>
 <blockquote>
 <p>To get started type “eb init”. Then type “eb create” and “eb open”  </p>
 </blockquote>
 <p>We’re ready to do that now. Use the following options when you run <code>eb init</code>:</p>
-<pre><code>eb init --platform python-3.7 --region us-east-1 make-up-your-app-name 
+<pre><code>eb init --platform python-3.7 make-up-your-app-name --region us-east-1  
 </code></pre>
 
 <p>The first time you run <code>eb init</code>, you will be asked for your AWS access key credentials.</p>
