@@ -1,0 +1,563 @@
+
+
+
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+      
+      
+      
+        <meta name="lang:clipboard.copy" content="Copy to clipboard">
+      
+        <meta name="lang:clipboard.copied" content="Copied to clipboard">
+      
+        <meta name="lang:search.language" content="en">
+      
+        <meta name="lang:search.pipeline.stopwords" content="True">
+      
+        <meta name="lang:search.pipeline.trimmer" content="True">
+      
+        <meta name="lang:search.result.none" content="No matching documents">
+      
+        <meta name="lang:search.result.one" content="1 matching document">
+      
+        <meta name="lang:search.result.other" content="# matching documents">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      <link rel="shortcut icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.1, mkdocs-material-4.6.3">
+    
+    
+      
+        <title>DS Release Canvas examples - Lambda Labs DS</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/application.adb8469c.css">
+      
+      
+    
+    
+      <script src="../assets/javascripts/modernizr.86422ebf.js"></script>
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
+      
+    
+    <link rel="stylesheet" href="../assets/fonts/material-icons.css">
+    
+    
+    
+      
+    
+    
+  </head>
+  
+    <body dir="ltr">
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
+    
+      <a href="#ds-release-canvas-examples" tabindex="0" class="md-skip">
+        Skip to content
+      </a>
+    
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href=".." title="Lambda Labs DS" aria-label="Lambda Labs DS" class="md-header-nav__button md-logo">
+          
+            <img alt="logo" src="../images/lambda_shield_white_cropped.png" width="24" height="24">
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          
+            <span class="md-header-nav__topic">
+              Lambda Labs DS
+            </span>
+            <span class="md-header-nav__topic">
+              
+                DS Release Canvas examples
+              
+            </span>
+          
+        </div>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
+          
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" aria-label="search" name="query" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
+      <label class="md-icon md-search__icon" for="__search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            Type to start searching
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+        
+      </div>
+      
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+        
+      
+      
+      <main class="md-main" role="main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="__drawer">
+    <a href=".." title="Lambda Labs DS" class="md-nav__button md-logo">
+      
+        <img alt="logo" src="../images/lambda_shield_white_cropped.png" width="48" height="48">
+      
+    </a>
+    Lambda Labs DS
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href=".." title="Labs DS Phases" class="md-nav__link">
+      Labs DS Phases
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../planning/" title="Planning" class="md-nav__link">
+      Planning
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../cycle1/" title="Cycle 1: Data + Baseline" class="md-nav__link">
+      Cycle 1: Data + Baseline
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../cycle2/" title="Cycle 2: Model + Deploy" class="md-nav__link">
+      Cycle 2: Model + Deploy
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../cycle3/" title="Cycle 3: Iterate" class="md-nav__link">
+      Cycle 3: Iterate
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../documentation/" title="Documentation + Presentation" class="md-nav__link">
+      Documentation + Presentation
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../expectations/" title="Expectations" class="md-nav__link">
+      Expectations
+    </a>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#allay" class="md-nav__link">
+    Allay
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#description" class="md-nav__link">
+    Description
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#identify-user-problems-that-ds-can-help-solve" class="md-nav__link">
+    Identify user problems that DS can help solve
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#data-audit" class="md-nav__link">
+    Data audit
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ds-release-canvas-1" class="md-nav__link">
+    DS Release Canvas 1
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ds-release-canvas-2" class="md-nav__link">
+    DS Release Canvas 2
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#web-release-canvas" class="md-nav__link">
+    Web Release Canvas
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#betterreads" class="md-nav__link">
+    BetterReads
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#description_1" class="md-nav__link">
+    Description
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#data-audit_1" class="md-nav__link">
+    Data Audit
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ds-release-canvas-1_1" class="md-nav__link">
+    DS Release Canvas 1
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#define-how-youll-measure-success" class="md-nav__link">
+    Define how you’ll measure success
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ds-release-canvas-2_1" class="md-nav__link">
+    DS Release Canvas 2
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ds-release-canvas-3" class="md-nav__link">
+    DS Release Canvas 3
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#citrics" class="md-nav__link">
+    Citrics
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#description_2" class="md-nav__link">
+    Description
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#data-audit_2" class="md-nav__link">
+    Data audit
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ds-release-canvas-1_2" class="md-nav__link">
+    DS Release Canvas 1
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#groa" class="md-nav__link">
+    Groa
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                <h1 id="ds-release-canvas-examples">DS Release Canvas examples</h1>
+<h2 id="allay">Allay</h2>
+<h3 id="description">Description</h3>
+<p>The Labs 23 team started with this description from the Product Vision Document:</p>
+<p><img alt="" src="D608006D-C1B6-43F2-A76B-AB4421178F2E.png" /></p>
+<h3 id="identify-user-problems-that-ds-can-help-solve">Identify user problems that DS can help solve</h3>
+<p>This can be hard, especially for greenfield projects. The team struggled at first, but asked for help, and we found a good opportunity together:</p>
+<p><img alt="" src="01E0070E-4B8B-455A-BE36-68D868DE033B.png" /></p>
+<h3 id="data-audit">Data audit</h3>
+<p>During the Planning phase, you’re required to audit your data. What data do you have now? What data do you need, to solve the problem? What data can you get?</p>
+<p>You could make a table that looks something like this:</p>
+<p><img alt="" src="22DF76A6-D916-45D5-A720-73FDB11F42B6.png" /></p>
+<p>Refer to these resources to help with your data audit:</p>
+<ul>
+<li><a href="https://pair.withgoogle.com/chapter/data-collection/">Google People + AI Guidebook: Data Collection + Evaluation</a> </li>
+<li><a href="https://mlpowered.com/pdf/BMLPA_Chapter_1.pdf">Building Machine Learning Powered Applications</a> , PDF pages 33-35.</li>
+</ul>
+<p>You may have heard that we don’t write code in Labs during the Planning phase. This is <em>generally</em> true. However, DS is expected to write some code to do your data audit and identify DS opportunities.</p>
+<h3 id="ds-release-canvas-1">DS Release Canvas 1</h3>
+<p>This example is good overall, but it’s missing two requirements for DS RC1:</p>
+<ul>
+<li>Deploy baseline API</li>
+<li>Define how you measure success. </li>
+</ul>
+<p><img alt="" src="49DC77BB-B985-41BC-994F-D8FAD4606491.png" /></p>
+<p><img alt="" src="477631D7-BB9D-4909-8BFD-417ECA5CF61F.png" /></p>
+<h3 id="ds-release-canvas-2">DS Release Canvas 2</h3>
+<p>DS teams will probably deliver fewer features than Web teams during Labs. For example, Web may release three features in cycle 1, then three more features in cycle 2. But DS may work on a single user feature across both cycles. This is accepted and expected!</p>
+<p>The Labs 23 Allay DS team plans to work on the same problem and solution, but with different key results:</p>
+<p><img alt="" src="DACD9224-3888-45D6-8305-A380F4C0D2BF.png" />
+<img alt="" src="25F07C8D-3296-4358-A30E-941C62564FF3.png" /></p>
+<p>They created their lo-fi mockup with <a href="https://excalidraw.com/">Excalidraw</a></p>
+<p><img alt="" src="low-fi-2.png" /></p>
+<p>Refer to these resources for help with your lo-fi mockups:</p>
+<ul>
+<li><a href="https://mlpowered.com/pdf/BMLPA_Chapter_1.pdf">Building Machine Learning Powered Applications</a> , PDF pages 21-22.</li>
+<li><a href="https://blog.dominodatalab.com/stakeholder-driven-data-science-warby-parker/">Stakeholder-Driven Data Science</a>  @ 6:40 (“First example, retail site selection … We start with mockups.”)</li>
+</ul>
+<h3 id="web-release-canvas">Web Release Canvas</h3>
+<p>DS and Web need to collaborate together. This Web RC has great OKRs! But it should be more explicit about integrating the DS API. </p>
+<p><img alt="" src="55481A14-72F0-48B2-AA29-8870348B2B1D.png" /></p>
+<p><img alt="" src="38A060FE-FE51-46FF-983F-B19316D744FD.png" /></p>
+<h2 id="betterreads">BetterReads</h2>
+<h3 id="description_1">Description</h3>
+<p><img alt="" src="7D859A49-12C8-4F60-B0A9-64DA1D318283.png" /></p>
+<h3 id="data-audit_1">Data Audit</h3>
+<p><img alt="" src="92AE39BE-CBCD-4C5D-8BB6-1D00ADCA684C.png" /></p>
+<h3 id="ds-release-canvas-1_1">DS Release Canvas 1</h3>
+<p>Notice that RC1 does include “deploy baseline API”. This is a requirement.</p>
+<p><img alt="" src="3D619ACE-EF1E-45F5-ACCE-EE0021C8948A.png" /></p>
+<p>Because this is a build-on project, the team plans to resolve open issues on GitHub. This is a good idea!</p>
+<p><img alt="" src="FF1735A5-586E-4D80-9ED2-065E22A973B0.png" /></p>
+<h3 id="define-how-youll-measure-success">Define how you’ll measure success</h3>
+<p>By the end of cycle 1, you must define how you’ll measure the success of your model. It’s not easy, especially if your model is unsupervised and your data is unlabeled! This team did a great job coming up with a creative solution:</p>
+<p><img alt="" src="1AA94E25-E447-4332-8D5C-9E5439CC30C8.png" /></p>
+<h3 id="ds-release-canvas-2_1">DS Release Canvas 2</h3>
+<p>DS RC1 had one user story: “I want to receive book recommendations.”</p>
+<p>The team could reuse the same use story for RC2. But they chose to rephrase it as “I want my book recommendations to be more accurate.” That’s good too!</p>
+<p><img alt="" src="02DD50A8-5E94-4A59-88AC-717FEE69E0A0.png" /></p>
+<h3 id="ds-release-canvas-3">DS Release Canvas 3</h3>
+<p>If you have time, you can continue to iterate on your model, or work on new user features.</p>
+<p><img alt="" src="4B071267-05DF-4C1E-A90D-F6A04B7252ED.png" /></p>
+<h2 id="citrics">Citrics</h2>
+<h3 id="description_2">Description</h3>
+<p><img alt="" src="0F5BB791-5B9B-4ECA-9CC7-C1C38DBBE631.png" /></p>
+<h3 id="data-audit_2">Data audit</h3>
+<p>You aren’t required to make a detailed “data dictionary” during the planning phase, but it could be helpful to have at some point!</p>
+<p><img alt="" src="0F7ED853-71F4-434E-AB83-7D20C7D79EC6.png" /></p>
+<h3 id="ds-release-canvas-1_2">DS Release Canvas 1</h3>
+<p><img alt="" src="4D442417-8973-463D-A8FD-3215E4D3FDD8.png" /></p>
+<p><img alt="" src="prototype_rc1.png" /></p>
+<p>DS Release Canvas 3</p>
+<p><img alt="" src="8B997F9F-6AA9-4FD4-8A35-AE79B7F5C6A6.png" /></p>
+<p><img alt="" src="prototype_rc3.png" /></p>
+<h2 id="groa">Groa</h2>
+<p>PVD</p>
+<p><img alt="" src="D533B791-A802-411B-B251-96695CC16676.png" /></p>
+<p>DS Release Canvas</p>
+<p><img alt="" src="F09FB5FA-AF77-4611-9012-4FB51F595D9C.png" /></p>
+<p><img alt="" src="lo-fi1.png" /></p>
+<p><img alt="" src="543CE897-B87C-4472-8900-5FB88EE8A270.png" /></p>
+<p>API documentation</p>
+<p><img alt="" src="87C477B6-9FC5-4413-A5E8-BE4E8D8B17CF.png" /></p>
+                
+                  
+                
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        powered by
+        <a href="https://www.mkdocs.org" target="_blank" rel="noopener">MkDocs</a>
+        and
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs</a>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../assets/javascripts/application.c33a9706.js"></script>
+      
+      <script>app.initialize({version:"1.1",url:{base:".."}})</script>
+      
+    
+  </body>
+</html>
