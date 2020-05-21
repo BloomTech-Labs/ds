@@ -420,6 +420,13 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#develop-deploy-model" class="md-nav__link">
+    Develop &amp; deploy model
+  </a>
+  
+</li>
+      
       
       
       
@@ -705,6 +712,10 @@ CLI = Command Line Interface</p>
 <p>To ensure that you’re not charged for any services you aren’t using, delete all application versions and terminate the environment.   </p>
 </blockquote>
 <p>Follow the instructions in the <a href="https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/GettingStarted.Cleanup.html">docs</a>!</p>
+<h2 id="develop-deploy-model">Develop &amp; deploy model</h2>
+<p>Continue with this <a href="https://colab.research.google.com/drive/1l2Rz4Ldow1QcOjOBqP8usPiu1pHzpZIT?usp=sharing">Colab notebook</a> to develop a real model. </p>
+<p>Then <a href="https://scikit-learn.org/stable/modules/model_persistence.html">pickle the model</a> and use pipenv to install exact version numbers of all new dependencies.</p>
+<p>Test the app locally. Then push to GitHub, and run <code>eb deploy</code>.</p>
                 
                   
                 
