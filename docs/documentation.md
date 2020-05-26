@@ -16,6 +16,10 @@ You will design and document your architecture to deploy your model and integrat
 
 ![](https://i.ibb.co/RYvKF1C/Tally-Schema-5.png)
 
+[Labs 19 Omega2020](https://github.com/Lambda-School-Labs/omega2020-ds) architecture (diagram made with [Cloudcraft](https://cloudcraft.co/))
+
+![](https://github.com/Lambda-School-Labs/omega2020-ds/raw/master/readme_files/Omega2020%20-%20Annotated.png)
+
 ## Notebooks
 
 - [Jupyter Notebook Best Practices for Data Science](https://www.svds.com/jupyter-notebook-best-practices-for-data-science/)
